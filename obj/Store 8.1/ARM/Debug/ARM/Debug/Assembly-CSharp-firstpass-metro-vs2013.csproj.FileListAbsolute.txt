@@ -1,0 +1,17 @@
+D:\Unity\Project\SpeedRunner\SpeedRunner\bin\Store 8.1\ARM\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity\Project\SpeedRunner\SpeedRunner\bin\Store 8.1\ARM\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity\Project\SpeedRunner\SpeedRunner\bin\Store 8.1\ARM\Debug\Assembly-CSharp-firstpass.pri
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass-metro-vs2013.csprojResolveAssemblyReference.cache
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\priconfig.xml
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\priconfig.xml.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\layout.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\layout.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\resources.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\resources.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\pri.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\pri.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\qualifiers.txt
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\qualifiers.txt.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\obj\Store 8.1\ARM\Debug\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

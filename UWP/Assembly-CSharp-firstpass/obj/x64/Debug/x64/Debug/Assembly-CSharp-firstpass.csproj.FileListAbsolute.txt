@@ -1,0 +1,16 @@
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\bin\x64\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\bin\x64\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\bin\x64\Debug\Assembly-CSharp-firstpass.pri
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\priconfig.xml
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\priconfig.xml.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\layout.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\layout.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\resources.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\resources.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\pri.resfiles
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\pri.resfiles.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\qualifiers.txt
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\qualifiers.txt.intermediate
+D:\Unity\Project\SpeedRunner\SpeedRunner\UWP\Assembly-CSharp-firstpass\obj\x64\Debug\x64\Debug\MultipleQualifiersPerDimensionFound.txt

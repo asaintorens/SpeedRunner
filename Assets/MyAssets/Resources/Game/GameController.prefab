@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &138146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 485512}
+  - 114: {fileID: 11460636}
+  - 114: {fileID: 11490344}
+  - 114: {fileID: 11414138}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485512
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.818106, y: 3.82026, z: 2.3967962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11414138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af714aff2c544494bbcb7d4d1d169991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game: {fileID: 11460636}
+  animationEnforce: 0
+--- !u!114 &11460636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29844fbb556bad24a8f8c2cfc2aa4129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugNoGameOver: 0
+  debugNoUpTime: 0
+  debugNoJump: 0
+  debugNoSlide: 0
+  debugNoEnforce: 0
+  debugNoSpear: 0
+  ui: {fileID: 0}
+  Player: {fileID: 0}
+  ObjectToLoadAfter: 10
+  lenghtObstacle: 10
+  Obstacles: []
+  objectBeforePlayer: 0
+  timeScale: 1.6
+  currentGameObjectIndex: 0
+  previousGameObjectIndex: 0
+  timeScaleUp: 0.05
+  score: 0
+  timeScaleOnGameOver: 0.69
+  ragdoll: {fileID: 0}
+  movePlayer: {fileID: 0}
+  animatorController: {fileID: 0}
+  distanceToAction: 1
+  audio: {fileID: 0}
+--- !u!114 &11490344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56148082980496145b87713491d51be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 138146}
+  m_IsPrefabParent: 1

@@ -1,0 +1,1 @@
+﻿select count(DISTINCT score.username) from dbo.score

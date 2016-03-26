@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System;
+using Assets.MyAssets.Resources.Script;
 
 public class MenuController : MonoBehaviour
 {
@@ -14,6 +16,16 @@ public class MenuController : MonoBehaviour
         Time.timeScale = 1;
         this.MenuPrincipalLayout.SetActive(true);
         this.OptionLayout.SetActive(false);
+        this.InitQuality();
+    }
+
+    private void InitQuality()
+    {
+        String quality = PlayerPrefs.GetString(PlayerPrefsString.QUALITY_SETTINGS);
+        if (quality != "")
+        {
+            QualitySettings.SetQualityLevel(int.Parse(quality));
+        }
     }
 
     public void StartGame()

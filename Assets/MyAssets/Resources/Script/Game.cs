@@ -46,6 +46,7 @@ public class Game : MonoBehaviour {
     // Use this for initialization
     void Start () {
         this.Obstacles = new List<GameObject>();
+        GameOver = false;
         this.ragdoll = this.Player.GetComponent<RagdollHelper>();
         this.logicAnimator = this.GetComponent<LogicAnimationController>();
         this.movePlayer = this.Player.GetComponent<Moving>();

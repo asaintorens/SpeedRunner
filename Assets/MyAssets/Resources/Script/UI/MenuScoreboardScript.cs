@@ -24,6 +24,7 @@ public class MenuScoreboardScript : MonoBehaviour {
     public UnityEngine.UI.Text totalGamesText;
 
     public GameObject sampleScore;
+    public GameObject loader;
 
 
     public List<ModelScore> globalScores = new List<ModelScore>();
@@ -65,6 +66,7 @@ public class MenuScoreboardScript : MonoBehaviour {
     public IEnumerator CoroutineLoadGlobalRanking()
     {
         this.StopCoroutine("CoroutineFillGlobalRankingScore");
+        this.loader.SetActive(true);
         ManagerDB.LunchGetGlobalScore();
         ManagerDB.CheckIsDone();
 
@@ -110,7 +112,7 @@ public class MenuScoreboardScript : MonoBehaviour {
         }
 
         this.scrollbarGlobalRanking.value = 1;
-
+        this.loader.SetActive(false);
         yield return null;
     }
 

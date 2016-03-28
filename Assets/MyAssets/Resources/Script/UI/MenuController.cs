@@ -45,7 +45,8 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         SceneManager.UnloadScene("game");
-        Application.LoadLevel("game");
+
+        SceneManager.LoadScene("game");
     }
 
     public void OptionsMenuClick()

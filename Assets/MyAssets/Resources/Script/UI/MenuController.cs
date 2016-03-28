@@ -10,13 +10,27 @@ public class MenuController : MonoBehaviour
 
     public GameObject MenuPrincipalLayout;
     public GameObject OptionLayout;
+    public GameObject ScoreBoardLayout;
+    public GameObject RootPanel;
+
+
+    public MenuScoreboardScript scoreBoard;
     // Use this for initialization
     void Start()
     {
         Time.timeScale = 1;
-        this.MenuPrincipalLayout.SetActive(true);
-        this.OptionLayout.SetActive(false);
+        this.ReturnToMainMenu();
         this.InitQuality();
+    }
+
+    private void ReturnToMainMenu()
+    {
+        foreach (Transform onePanel in RootPanel.transform)
+        {
+            onePanel.gameObject.SetActive(false);
+        }
+
+        this.MenuPrincipalLayout.SetActive(true);
     }
 
     private void InitQuality()
@@ -30,7 +44,8 @@ public class MenuController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.UnloadScene("game");
+        Application.LoadLevel("game");
     }
 
     public void OptionsMenuClick()
@@ -39,9 +54,15 @@ public class MenuController : MonoBehaviour
         this.OptionLayout.SetActive(true);
     }
 
-    public void OptionsExitClick()
+    public void ReturnToGlobalMenu()
     {
-        this.MenuPrincipalLayout.SetActive(true);
-        this.OptionLayout.SetActive(false);
+        this.ReturnToMainMenu();
+    }
+    public void ScoreBoardMenuClick()
+    {
+        this.MenuPrincipalLayout.SetActive(false);
+        this.ScoreBoardLayout.SetActive(true);
+
+        this.scoreBoard.Init();
     }
 }

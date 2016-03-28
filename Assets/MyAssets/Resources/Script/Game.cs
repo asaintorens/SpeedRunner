@@ -184,6 +184,11 @@ public class Game : MonoBehaviour {
         }
     }
 
+    public void GoMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     private void RemoveFirstObstacle()
     {
         GameObject firstObstacles = Obstacles[this.indexToDestroy];
@@ -202,9 +207,10 @@ public class Game : MonoBehaviour {
          Obstacles.ElementAt(this.currentGameObjectIndex+1).GetComponent<Obstacle>().enableCollider = true;
         this.Player.GetComponent<RagdollHelper>().ragdollMode = true;
         Time.timeScale = this.timeScaleOnGameOver;
+        this.StartCoroutine("coroutineScore");
         if (!Application.isEditor)
         {
-            this.StartCoroutine("coroutineScore");
+            
         }
   
 
@@ -216,8 +222,9 @@ public class Game : MonoBehaviour {
     {
         try
         {
-
+            PlayerPrefsManager.AddScore(this.score.ToString());
        
+
         ManagerDB.AddScoreToApi(PlayerPrefs.GetString(PlayerPrefsString.NAME), this.score);
         }
         catch (Exception)

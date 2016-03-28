@@ -15,5 +15,7 @@ namespace Assets.MyAssets.Resources.Script
         public static string FALSE = "false";
 
         public static string QUALITY_SETTINGS = "quality settings";
+
+        public static string SCORE = "scores";
     }
 }

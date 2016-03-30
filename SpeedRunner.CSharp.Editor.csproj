@@ -258,6 +258,7 @@
     <None Include="Assets\Imported Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Imported Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Imported Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\MyAssets\Resources\Police\vacer_serif\License - READ THIS.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

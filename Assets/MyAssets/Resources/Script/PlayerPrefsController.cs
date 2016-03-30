@@ -47,7 +47,7 @@ public class PlayerPrefsManager : MonoBehaviour {
             }
             
         }
-
+        score.Reverse();
         return score;
     }
 

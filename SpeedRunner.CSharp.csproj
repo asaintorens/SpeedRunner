@@ -189,7 +189,6 @@
     <Compile Include="Assets\Imported Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Imported Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Imported Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\LoadingScript.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\CameraFollow.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\ColorUpdate.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\Game.cs" />
@@ -207,11 +206,14 @@
     <Compile Include="Assets\MyAssets\Resources\Script\PlayerPrefsController.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\PlayerPrefsString.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\ScrollBarAutoValue1.cs" />
+    <Compile Include="Assets\MyAssets\Resources\Script\UI\LoadingScript.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\UI\MenuController.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\UI\MenuScoreboardScript.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\UI\MenuUiOptions.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\UI\ScorePanel.cs" />
+    <Compile Include="Assets\MyAssets\Resources\Script\UI\UIApplyDesign.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\UI\UIControl.cs" />
+    <Compile Include="Assets\MyAssets\Resources\Script\UI\UIDesignApplyer.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\ValidateOnEnter.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\database\ManagerDB.cs" />
     <Compile Include="Assets\MyAssets\Resources\Script\model\ModelScore.cs" />
@@ -224,8 +226,6 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\UIApplyDesign.cs" />
-    <Compile Include="Assets\UIDesignApplyer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imported Assets\Breakable Objects\Breakable Window\Breakable Window Readme.txt" />
@@ -328,6 +328,7 @@
     <None Include="Assets\Imported Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Imported Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Imported Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\MyAssets\Resources\Police\vacer_serif\License - READ THIS.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

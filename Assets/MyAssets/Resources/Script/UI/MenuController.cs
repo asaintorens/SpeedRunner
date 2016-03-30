@@ -12,6 +12,8 @@ public class MenuController : MonoBehaviour
     public GameObject OptionLayout;
     public GameObject ScoreBoardLayout;
     public GameObject RootPanel;
+    public GameObject Achievements;
+    public GameObject title;
 
 
     public MenuScoreboardScript scoreBoard;
@@ -27,7 +29,11 @@ public class MenuController : MonoBehaviour
     {
         foreach (Transform onePanel in RootPanel.transform)
         {
-            onePanel.gameObject.SetActive(false);
+            if(onePanel.gameObject.GetInstanceID() != this.title.GetInstanceID()) // ne pas desactiver le titre
+            {
+                onePanel.gameObject.SetActive(false);
+            }
+            
         }
 
         this.MenuPrincipalLayout.SetActive(true);
@@ -53,6 +59,12 @@ public class MenuController : MonoBehaviour
     {
         this.MenuPrincipalLayout.SetActive(false);
         this.OptionLayout.SetActive(true);
+    }
+
+    public void AchievementsMenuClick()
+    {
+        this.MenuPrincipalLayout.SetActive(false);
+        this.Achievements.SetActive(true);
     }
 
     public void ReturnToGlobalMenu()
